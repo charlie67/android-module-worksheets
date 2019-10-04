@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Two Screen Template</string>
+    <string name="title">Set the colour</string>
+    <string name="colourIsLabel">"The colour is:"</string>
+    <string name="zeroPercent">0%</string>
+    <string name="hundredPercent">100%</string>
+    <string name="nameThatBackground">Name that background</string>
+    <string name="reset">Reset</string>
+</resources>

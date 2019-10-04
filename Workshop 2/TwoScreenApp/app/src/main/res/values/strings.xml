@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Two screen app</string>
+    <string name="title">Set the colour</string>
+    <string name="colourIsLabel">"The colour is:"</string>
+    <string name="zeroPercent">0%</string>
+    <string name="hundredPercent">100%</string>
+    <string name="nameThatBackground">Name that background</string>
+    <string name="reset">Reset</string>
+    <string name="typeInName">Please type in a name for the colour:</string>
+    <string name="setColourBtn">Set the colour</string>
+
+</resources>
