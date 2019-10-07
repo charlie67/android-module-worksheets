@@ -1,10 +1,13 @@
 package uk.ac.aber.dcs.cs31620.twoscreentemplate;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -63,4 +66,32 @@ public class MainActivity extends AppCompatActivity {
         outState.putString(NAME_COLOUR_KEY, namedColour.getText().toString());
     }
 
+    public void displayNameColourScreen(View view)
+    {
+        Intent displayNameColourIntent = new Intent(this, NameColorActivity.class);
+        this.startActivityForResult(displayNameColourIntent, DISPLAY_NAME_COLOR_SCREEN_REQUEST_CODE);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == DISPLAY_NAME_COLOR_SCREEN_REQUEST_CODE)
+        {
+            if (resultCode == RESULT_OK)
+            {
+                namedColour.setText(data.getStringExtra(NameColorActivity.NAMED_COLOUR));
+            }
+        }
+    }
+
+    public void resetBackground(View view)
+    {
+        redBar.setProgress(redBar.getMax() / 2);
+        greenBar.setProgress(greenBar.getMax() / 2);
+        blueBar.setProgress(blueBar.getMax() / 2);
+
+        namedColour.setText(DEFAULT_TEXT);
+    }
 }

@@ -6,4 +6,6 @@
     <string name="hundredPercent">100%</string>
     <string name="nameThatBackground">Name that background</string>
     <string name="reset">Reset</string>
+    <string name="setColourBtn">Set The Colour</string>
+    <string name="typeInName">Please type in the name for the colour.</string>
 </resources>
