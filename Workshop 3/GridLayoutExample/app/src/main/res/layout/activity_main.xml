@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="4"
+    android:background="@color/colorPrimaryDark"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/label"
+        android:labelFor="@id/entry"
+        android:textColor="@android:color/white"
+        android:text="@string/typeHere" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_gravity="fill_horizontal"
+        android:background="@android:drawable/editbox_background"
+        android:layout_columnSpan="4"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_column="3"
+        android:text="@string/ok" />
+
+    <Button
+        android:layout_column="2"
+        android:text="@string/cancel" />
+</GridLayout>
+
+

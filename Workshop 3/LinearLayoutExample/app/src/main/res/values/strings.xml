@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Linear Layout Example</string>
+    <string name="sayHello">Hello World</string>
+    <string name="hintText">Enter text here</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Frame Layout Example</string>
+    <string name="top_text">Where is this...</string>
+    <string name="bottom_text">...famous ceiling?</string>
+    <string name="image_description">Image of the Royal Albert Hall ceiling</string>
+</resources>

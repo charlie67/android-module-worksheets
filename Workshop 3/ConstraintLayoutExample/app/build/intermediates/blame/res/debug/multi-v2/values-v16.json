@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chrisloftus/Documents/modules/CS31620/workshops/workshop3/ConstraintLayoutExample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/chrisloftus/.gradle/caches/transforms-2/files-2.1/28e6f6e2e369da4369c958b59781aaaa/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/chrisloftus/.gradle/caches/transforms-2/files-2.1/9b48b758b6f0f55e0aea86e684194942/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

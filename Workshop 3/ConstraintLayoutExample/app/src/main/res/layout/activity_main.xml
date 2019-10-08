@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/label"
+        android:labelFor="@id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/typeHere"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/entry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toStartOf="@id/ok"
+        app:layout_constraintTop_toBottomOf="@id/entry" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
