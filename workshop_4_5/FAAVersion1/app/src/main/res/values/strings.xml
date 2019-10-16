@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">Feline Adoption Agency</string>
+    <string name="home_tab">Home</string>
+    <string name="kitten_tab">Kittens</string>
+    <string name="cat_tab">Cats</string>
+    <string name="fosterer_tab">Fosterers</string>
+    <string name="user_tab">Users</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_image_description">Cat</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_open_drawer">Open</string>
+    <string name="nav_close_drawer">Close</string>
 </resources>
