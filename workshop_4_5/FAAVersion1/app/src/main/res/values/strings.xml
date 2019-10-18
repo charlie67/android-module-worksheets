@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Feline Adoption Agency</string>
+    <string name="app_name" translatable="false">Feline Adoption Agency</string>
     <string name="home_tab">Home</string>
     <string name="kitten_tab">Kittens</string>
     <string name="cat_tab">Cats</string>
@@ -16,4 +16,7 @@
     <string name="nav_feedback">Feedback</string>
     <string name="nav_open_drawer">Open</string>
     <string name="nav_close_drawer">Close</string>
+    <string name="home_page_cats">Home page cats</string>
+    <string name="home_page_text">Our mission is to find caring homes for our cats and kittens. Sign-up to start the process</string>
+    <string name="featured_cat_text">This month\'s featured Cat</string>
 </resources>
