@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bubble Sort With Threads</string>
+    <string name="bubbleSort">Bubble Sort</string>
+    <string name="randomize">Randomize</string>
+</resources>
