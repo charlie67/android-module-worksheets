@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="default_text_colour">#ff000000</color>
+    <color name="default_background_colour">#ffffffff</color>
+
+    <integer-array name="colour_values">
+        <item>0xff000000</item> <!-- Black -->
+        <item>0xff0000ff</item> <!-- Blue -->
+        <item>0xff00ffff</item> <!-- Cyan -->
+        <item>0xff888888</item> <!-- Grey -->
+        <item>0xff00ff00</item> <!-- Green -->
+        <item>0xffff0000</item> <!-- Red -->
+        <item>0xffffffff</item> <!-- White -->
+    </integer-array>
+</resources>

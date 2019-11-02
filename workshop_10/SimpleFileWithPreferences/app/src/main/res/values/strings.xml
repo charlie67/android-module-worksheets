@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Simple File With Preferences</string>
+    <string name="change_text_colour_setting">Change text colour</string>
+
+    <color name="default_text_colour">#FF000000</color>
+
+    <string-array name="colour_names">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Grey</item>
+        <item>Green</item>
+        <item>Red</item>
+    </string-array>
+    <integer-array name="colour_values">
+        <item >0xff000000</item> <!-- Black -->
+        <item >0xff0000ff</item> <!-- Blue -->
+        <item >0xff00ffff</item> <!-- Cyan -->
+        <item >0xff888888</item> <!-- Grey -->
+        <item >0xff00ff00</item> <!-- Green -->
+        <item >0xffff0000</item> <!-- Red -->
+    </integer-array>
+</resources>

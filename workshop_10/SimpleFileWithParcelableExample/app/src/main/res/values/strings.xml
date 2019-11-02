@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple File With Parcelable Example</string>
+    <string name="text_colour_prompt">Choose a text colour</string>
+    <string name="background_colour_prompt">Choose a background colour</string>
+    <string name="text_size_prompt">Choose a text size</string>
+    <string name="menu_preferences">Change preferences</string>
+    <string name="really_exit_title">Really Exit?</string>
+    <string name="really_exit">Are you sure you want to exit?</string>
+
+    <string name="default_text_size">20</string>
+
+    <string-array name="colour_names">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Grey</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="text_sizes">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+    </string-array>
+</resources>

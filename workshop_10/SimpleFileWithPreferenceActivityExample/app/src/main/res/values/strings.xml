@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Simple File With Preference Activity Example</string>
+
+    <string-array name="colourNames">
+        <item name="black">Black</item>
+        <item name="blue">Blue</item>
+        <item name="cyan">Cyan</item>
+        <item name="grey">Grey</item>
+        <item name="green">Green</item>
+        <item name="red">Red</item>
+    </string-array>
+
+    <string-array name="colourValues">
+        <item name="black">000000</item>
+        <item name="blue">0000ff</item>
+        <item name="cyan">00ffff</item>
+        <item name="grey">888888</item>
+        <item name="green">00ff00</item>
+        <item name="red">ff0000</item>
+    </string-array>
+
+    <string name="action_settings">Screen settings</string>
+
+    <string name="colour_settings_title">Choose text colour</string>
+    <string name="change_text_colour_setting">Change text colour</string>
+
+    <string name="default_text_colour">000000</string>
+
+</resources>
