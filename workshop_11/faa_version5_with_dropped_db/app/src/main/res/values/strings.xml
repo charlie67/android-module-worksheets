@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Feline Adoption Agency</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_tab">Home</string>
+    <string name="kitten_tab">Kittens</string>
+    <string name="cat_tab">Cats</string>
+    <string name="fosterer_tab">Fosterers</string>
+    <string name="faa_user_tab">FAA Users</string>
+    <string name="nav_header_image_description">Picture of kitten</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="welcome">Our mission is to find caring homes for our cats and kittens. Sign-up to start the process.</string>
+    <string name="home_picture_image">Image of kittens</string>
+    <string name="featured_cat_description">Images of this month\'s featured cat</string>
+    <string name="featured_cat_title">This month\'s featured cat:</string>
+    <string name="distance">Search dist.(miles): %1$d</string>
+    <string name="choose_dialog_title">Choose a value</string>
+    <string name="ok_button_text">OK</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="proximity_dialog_title">Choose value</string>
+    <string name="max_distance_text">Enter maximum search distance</string>
+    <string name="inmate_image_description">Picture of one of the cats</string>
+    <string name="delete_button_description">Delete cat button</string>
+
+    <!-- Arrays of values -->
+    <string name="any_gender">Any gender</string>
+    <string-array name="gender_array">
+        <item>Any gender</item>
+        <item>FEMALE</item>
+        <item>MALE</item>
+    </string-array>
+
+    <string name="any_age">Any age</string>
+    <string-array name="age_range_array">
+        <item>Any age</item>
+        <item>Up to 1 year</item>
+        <item>1 &#8211; 2 years</item>
+        <item>2 &#8211; 5 years</item>
+        <item>Over 5 years</item>
+    </string-array>
+
+    <string name="any_breed">Any breed</string>
+    <string-array name="breed_array">
+        <item>Any breed</item>
+        <item>Abyssinian</item>
+        <item>Balinese</item>
+        <item>Bengal</item>
+        <item>Birman</item>
+        <item>British Shorthair</item>
+        <item>Burmese</item>
+        <item>Burmilla</item>
+        <item>Chinchilla</item>
+        <item>Cornish Rex</item>
+        <item>Devon rex</item>
+        <item>Moggie</item>
+        <item>Exotic Shorthair</item>
+        <item>Japanese Bobtail</item>
+        <item>Korat</item>
+        <item>Main Coon</item>
+        <item>Manx</item>
+        <item>Norwegian Forect Cat</item>
+        <item>Manx</item>
+        <item>Ocicat</item>
+        <item>Oriental Shorthair</item>
+        <item>Persian</item>
+        <item>Ragdoll</item>
+        <item>Russian Blue</item>
+        <item>Scottish Fold</item>
+        <item>Siamese</item>
+        <item>Siberian Forest Cat</item>
+        <item>Singapura</item>
+        <item>Showshoe</item>
+        <item>Somali</item>
+        <item>Sphynx</item>
+        <item>Tiffanie</item>
+        <item>Tonkinese</item>
+        <item>Turkish Van</item>
+    </string-array>
+</resources>

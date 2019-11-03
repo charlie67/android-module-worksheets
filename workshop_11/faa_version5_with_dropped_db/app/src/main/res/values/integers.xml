@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="min_proximity_distance">1</integer>
+    <integer name="max_proximity_distance">50</integer>
+
+    <integer name="num_days_recent">30</integer> <!-- number of days considered recent -->
+    <integer name="min_recent_cats">5</integer> <!-- if < min_recent_cats retrieved in num_recent_days then display where possible min_recent_cats -->
+
+</resources>
