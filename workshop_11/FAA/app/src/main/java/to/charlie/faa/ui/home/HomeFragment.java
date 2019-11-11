@@ -1,19 +1,26 @@
 package to.charlie.faa.ui.home;
 
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 
-import java.util.Calendar;
-import java.util.Date;
+import java.util.List;
+import java.util.Random;
 
 import to.charlie.faa.R;
-import to.charlie.faa.datasourcce.FaaRepository;
+import to.charlie.faa.model.Cat;
+import to.charlie.faa.model.RecentCatsViewModel;
+import to.charlie.faa.model.util.ResourceUtil;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,20 +38,35 @@ public class HomeFragment extends Fragment
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 	{
-		// Inflate the layout for this fragment
-		View view = inflater.inflate(R.layout.fragment_home, container, false);
-		Date endDate = Calendar.getInstance().getTime();
-		Calendar past = Calendar.getInstance();
-		past.add(Calendar.DATE, -30);
-		new FaaRepository(getActivity().getApplication()).getRecentCatsSync(past.getTime(), endDate);
+// Inflate the layout for this fragment
+		final View view = inflater.inflate(R.layout.fragment_home, container, false);
+		RecentCatsViewModel catViewModel = ViewModelProviders.of(this).get(RecentCatsViewModel.class);
 
-//        CatList catList = new CatList();
-//        Cat[] cats = catList.getCats();
+		final Random rand = new Random();
 
-		ImageView imageView = view.findViewById(R.id.featured_image);
-//        imageView.setImageResource(cats[new Random().nextInt(19)].getResourceId());
+		final ImageView featuredImage = view.findViewById(R.id.featured_image);
+
+		LiveData<List<Cat>> recentCats = catViewModel.getRecentCats();
+
+		recentCats.observe(HomeFragment.this, new Observer<List<Cat>>()
+		{
+			@Override
+			public void onChanged(@Nullable final List<Cat> cats)
+			{
+				// Randomly select one of the cats
+				if (cats != null && cats.size() > 0)
+				{
+					Bitmap bitmap = ResourceUtil.getAssetImageAsBitmap(featuredImage.getContext(), cats.get(rand.nextInt(cats.size() - 1)).getImagePath());
+					if (bitmap != null)
+					{
+						featuredImage.setImageBitmap(bitmap);
+					}
+				}
+			}
+		});
+
 
 		return view;
-	}
 
+	}
 }

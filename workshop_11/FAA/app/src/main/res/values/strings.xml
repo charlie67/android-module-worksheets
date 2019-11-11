@@ -28,12 +28,15 @@
     <string name="inmate_image_description">Sylvester</string>
     <string name="delete_button_description">Remove Cat</string>
 
+    <!-- Arrays of values -->
+    <string name="any_gender">Any gender</string>
     <string-array name="gender_array">
         <item>Any gender</item>
-        <item>Female</item>
-        <item>Male</item>
+        <item>FEMALE</item>
+        <item>MALE</item>
     </string-array>
 
+    <string name="any_age">Any age</string>
     <string-array name="age_range_array">
         <item>Any age</item>
         <item>Up to 1 year</item>
@@ -42,6 +45,7 @@
         <item>Over 5 years</item>
     </string-array>
 
+    <string name="any_breed">Any breed</string>
     <string-array name="breed_array">
         <item>Any breed</item>
         <item>Abyssinian</item>
